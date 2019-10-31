@@ -1,7 +1,8 @@
 name: 'Cleanup xvfb'
 description: 'Cleanup any lingering xvfb pids'
-icon: monitor
-color: yellow
+branding:
+  icon: monitor
+  color: yellow
 runs:
   using: 'node12'
   main: 'index.js'
