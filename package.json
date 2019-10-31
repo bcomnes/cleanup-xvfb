@@ -1,0 +1,29 @@
+{
+  "name": "cleanup-xvfb",
+  "version": "0.0.0",
+  "description": "A github action to cleanup xvfb pids",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcomnes/cleanup-xvfb.git"
+  },
+  "keywords": [
+    "github",
+    "actions",
+    "xvfb"
+  ],
+  "author": "Bret Comnes <bcomnes@gmail.com> (https://bret.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bcomnes/cleanup-xvfb/issues"
+  },
+  "homepage": "https://github.com/bcomnes/cleanup-xvfb#readme",
+  "devDependencies": {
+    "nanochrome": "^0.1.0",
+    "standard": "^14.3.1",
+    "tape": "^4.11.0"
+  }
+}

@@ -1,0 +1,5 @@
+name: 'Cleanup xvfb'
+description: 'Cleanup any lingering xvfb pids'
+runs:
+  using: 'node12'
+  main: 'index.js'
