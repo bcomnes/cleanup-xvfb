@@ -1,6 +1,6 @@
 {
   "name": "cleanup-xvfb",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A github action to cleanup xvfb pids",
   "main": "index.js",
   "scripts": {
