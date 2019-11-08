@@ -1,6 +1,9 @@
 const exec = require('child_process').exec
+const path = require('path')
 
-exec('sh ./cleanup-xvfb.sh', (error, stdout, stderr) => {
+const scriptPath = path.resolve(__dirname, 'cleanup-xvfb.sh')
+
+exec(`sh ${scriptPath}`, (error, stdout, stderr) => {
   console.log(stdout)
   console.log(stderr)
   if (error !== null) {
