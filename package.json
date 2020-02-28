@@ -4,7 +4,9 @@
   "description": "A github action to cleanup xvfb pids",
   "main": "index.js",
   "scripts": {
-    "test": "standard ."
+    "test": "standard .",
+    "release": "git push --follow-tags && gh-release",
+    "version": "auto-changelog -p --template keepachangelog auto-changelog --breaking-pattern 'BREAKING CHANGE:' && git add CHANGELOG.md"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,8 @@
   "devDependencies": {
     "nanochrome": "^0.1.0",
     "standard": "^14.3.1",
-    "tape": "^4.11.0"
+    "tape": "^4.11.0",
+    "auto-changelog": "^1.16.2",
+    "gh-release": "^3.5.0"
   }
 }
