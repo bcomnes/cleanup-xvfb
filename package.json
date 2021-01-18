@@ -28,6 +28,6 @@
     "standard": "^16.0.0",
     "auto-changelog": "^2.2.0",
     "tape": "^5.0.1",
-    "gh-release": "^4.0.0"
+    "gh-release": "^5.0.0"
   }
 }
