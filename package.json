@@ -25,9 +25,8 @@
   "homepage": "https://github.com/bcomnes/cleanup-xvfb#readme",
   "devDependencies": {
     "nanochrome": "^0.1.0",
-    "standard": "^16.0.0",
-    "auto-changelog": "^2.2.0",
-    "tape": "^5.0.1",
+    "standard": "^16.0.3",
+    "auto-changelog": "^2.2.1",
     "gh-release": "^5.0.0"
   }
 }
