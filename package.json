@@ -27,7 +27,7 @@
     "nanochrome": "^0.1.0",
     "standard": "^17.0.0",
     "auto-changelog": "^2.2.1",
-    "gh-release": "^6.0.0",
+    "gh-release": "^7.0.0",
     "tape": "^5.2.2"
   }
 }
