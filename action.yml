@@ -4,5 +4,5 @@ branding:
   icon: monitor
   color: yellow
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'index.js'
